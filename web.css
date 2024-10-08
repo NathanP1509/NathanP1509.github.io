@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    background-color: #f0ece2;
+    width: 35%;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.contact, .education, .skills {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+}
+
+.contact ul, .skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact ul li, .skills ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.right-column {
+    padding: 20px;
+    width: 65%;
+}
+
+.right-column h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.right-column h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.summary, .experience, .references {
+    margin-bottom: 20px;
+}
+
+.summary p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.job h3 {
+    font-size: 1.3em;
+    color: #333;
+}
+
+.job p {
+    font-size: 1.1em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.job ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.references p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.gambar-gambar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gambar-gambar img {
+    margin: 10px;
+}
